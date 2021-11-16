@@ -72,6 +72,9 @@ namespace VallezHotels
             txtDataFinal.Value = DateTime.Now;
 
             List<TipoQuarto> tipoQuartos = _tipoQuartoServico.BuscarTodos();
+            txtDataInicial.Value = DateTime.Now;
+            txtDataFinal.Value = DateTime.Now;
+            
 
             foreach (TipoQuarto tq in tipoQuartos)
             {

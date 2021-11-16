@@ -75,7 +75,6 @@ namespace VallezHotels
         {
 
             dtLocacao.Value = DateTime.Now;
-
             AtualizarDashboard();
 
         }
